@@ -1,0 +1,30 @@
+{{ partial "header.html" . }}
+
+<div class="article-meta">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.Description }}</p>
+    <p>Shot on the {{ .Date.Format "2" }} 
+        in {{ .Params.location }}, 
+        using {{ .Params.Equipment }}</p>
+</div>
+
+{{ $coverimage := .Resources.GetMatch .Params.Image }}
+{{ $coverimage := $coverimage.Resize "800x" }}
+<img src="{{ $coverimage.Permalink }}"/>
+
+<div id="gallery">
+{{ range .Resources.ByType "image" }}
+    {{ $image := .Resize "1920x" }}
+    {{ $thumb := .Resize "160x" }}
+
+    <a class="example-image-link" 
+       href="{{ $image.Permalink }}" 
+       data-lightbox="example-set" 
+       data-title="{{ $image.Permalink }}">
+       <img class="example-image" 
+            src="{{ $thumb.Permalink }}"/>
+    </a>
+
+{{ end }}
+</div>
+{{ partial "footer.html" . }}

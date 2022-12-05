@@ -1,0 +1,10 @@
+  <footer>
+  {{ partial "foot_custom.html" . }}
+  {{ with .Site.Params.footer }}
+  <hr/>
+  {{ replace . "{Year}" now.Year | markdownify}}
+  {{ end }}
+  </footer>
+  <script src="{{ "scripts/lightbox-plus-jquery.min.js" | relURL }}"></script>
+  </body>
+</html>

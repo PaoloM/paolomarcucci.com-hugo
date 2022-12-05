@@ -1,0 +1,48 @@
+    Index
+DONE    Blog (list of recent blog posts, using page/list layout)
+DONE        postxxxx (using post layout)
+            .
+        Kits
+            index
+                completed (list of completed kits, using page/list layout)
+                    kitxxxx (using kit layout)
+                    .
+                wip (list of work in progress kits, using page/list layout)
+                    kitxxxx (using kit layout)
+                    .
+                for sale (list of kits for sale, using page/list layout)
+                categories (list of kit categories, using page/list layout)
+                    catxxxx (category details and list of kits, using page/list layout)
+                        kitxxxx (using kit layout)
+                        .
+                    .
+        Projects (using page layout)
+            Hardware/software projects (using page layout)
+                Jeeves (using page layout)
+                    Room sensor (using page layout)
+                    Moisture sensor (using page layout)
+                    Message box (using page layout)
+                ModulAmp (using page layout)
+                    Enclosure (using page layout)
+                    Hardware (using page layout)
+                    Software (using page layout)
+                CAN Display (using page layout)
+            Windows apps (using page layout)
+            Windows phone apps (using page layout)
+                Reader (using the winphone layout)
+                Trip Manager (using the winphone layout)
+                Cat-o-genic (using the winphone layout)
+                FitBit Buddy (using the winphone layout)
+                D&D 4th ed Character Viewer (using the winphone layout)
+            Modelling (using page layout)
+                Regia Aeronautica (using page layout)
+                    Colors and schemes (using page layout)
+                Regio Esercito (using page layout)
+                    Colors and schemes (using page layout)
+                Regia Marina (using page layout)
+                    Colors and schemes (using page layout)
+DONE    Publications (list of publications, published works, patents, using page layout)
+        Portfolio (intro, list of portfolios, using page/list layout)
+            portfolioxxxx (using portfolio layout)
+            .
+DONE    About (about me, using page layout)
