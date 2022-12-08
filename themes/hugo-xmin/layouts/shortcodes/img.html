@@ -1,0 +1,23 @@
+<!-- image -->
+{{ $src := .Get "src" }}
+{{ $image := resources.Get $src }}
+{{ $resized := $image.Resize "800x" }}
+
+<figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
+    {{ with .Get "link" }}<a href="{{ $image.Permalink }}">{{ end }}
+        <img src="{{ $resized.Permalink }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" }}{{ end }}"{{ end }} />
+    {{ if .Get "link" }}</a>{{ end }}
+    {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr") }}
+    <figcaption>{{ if isset .Params "title" }}
+        <i>{{ .Get "title" }}{{ end }}
+        {{ if or (.Get "caption") (.Get "attr") }}<p>
+        {{ .Get "caption" }}
+        {{ with .Get "attrlink" }}<a href="{{ . }}"> {{ end }}
+            {{ .Get "attr" }}
+        {{ if .Get "attrlink" }}</a> {{ end }}
+        </p> {{ end }}</i>
+    </figcaption>
+    {{ end }}
+</figure>
+
+<!-- image -->
