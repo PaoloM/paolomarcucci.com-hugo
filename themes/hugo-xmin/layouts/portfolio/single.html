@@ -3,17 +3,18 @@
 <div class="article-meta">
     <h1>{{ .Title }}</h1>
     <p>{{ .Params.Description }}</p>
-    <p>Shot on the {{ .Date.Format "2" }} 
+    <p>Shot on {{ .Date.Format "Jan 02, 2006" }} 
         in {{ .Params.location }}, 
         using {{ .Params.Equipment }}</p>
-</div>
 
-{{ $coverimage := .Resources.GetMatch .Params.Image }}
-{{ $coverimage := $coverimage.Resize "800x" }}
-<img src="{{ $coverimage.Permalink }}"/>
+    {{ $coverimage := .Resources.GetMatch .Params.Image }}
+    {{ $coverimage := $coverimage.Resize "800x" }}
+    <img src="{{ $coverimage.Permalink }}"/>
+</div>
 
 <div id="gallery">
 {{ range .Resources.ByType "image" }}
+
     {{ $image := .Resize "1920x" }}
     {{ $thumb := .Resize "160x" }}
 
