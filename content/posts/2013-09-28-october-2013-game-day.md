@@ -4,7 +4,7 @@ title: "October 2013 game day"
 date: 2013-09-28T22:01:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: []
 ---
 <div class="info">(this post originally appeared on the forums of <a href="http://crankyoldgamer.net/CrankyBlog/">Cranky Old Gamer</a>, a very fine website run by my friend Greg Buron)</div>

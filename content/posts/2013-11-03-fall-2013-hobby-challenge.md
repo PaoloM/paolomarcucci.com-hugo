@@ -4,7 +4,7 @@ title: "Fall 2013 hobby challenge"
 date: 2013-11-03T18:57:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: []
 image: >-
   /blog/images/naaman1.jpg

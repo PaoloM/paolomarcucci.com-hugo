@@ -4,7 +4,7 @@ title: "My progress so far"
 date: 2015-06-30T20:59:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: []
 ---
 It's been a couple of months since I came back to aircraft modelling and one month since I started the <a href="/projects/the%20regia%20aeronautica%20project/">Regia Aeronautica Project<a/>.
@@ -30,8 +30,6 @@ Last new thing here was the use of Pledge floor polish for the gloss finish. And
 
 *New stuff*
 
-
-
 *   *Mottling*
 *   *Resin cockpit*
 *   *Pledge floor polish*
@@ -45,8 +43,6 @@ Also, the intake of the air filter was missing from the kit, so I had to rebuild
 The next challenge was executing the weird camo schemes that the Regia Aeronautica used during WWII.  Doing it properly with the smoke rings effect was still beyond my capabilities, so I used a similar - but mostly fictional - scheme, with some kind of green polka dots.
 
 *New stuff*
-
-
 
 *   *Scribing panel lines*
 *   *Parts scratchbuilding*

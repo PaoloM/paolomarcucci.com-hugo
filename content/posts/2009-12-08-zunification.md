@@ -4,7 +4,7 @@ title: "Zunification"
 date: 2009-12-08T15:30:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: []
 ---
 So I have this car, you know, and this car came with a stock radio that was ok but wasn’t really and… ok, let’s start from the beginning.

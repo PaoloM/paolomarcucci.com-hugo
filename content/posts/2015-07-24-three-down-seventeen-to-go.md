@@ -4,7 +4,7 @@ title: "Three down, seventeen to go..."
 date: 2015-07-24T10:59:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: [C.205, CR.42, Re.2000]
 image: >-
   images/blog/IMG_20150716_1930482_rewind.jpg

@@ -4,7 +4,7 @@ title: "June 2013 Hobby Challenge – Apocalypse Style"
 date: 2013-05-14T22:37:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: []
 image: >-
   /blog/images/antonius-2.jpg

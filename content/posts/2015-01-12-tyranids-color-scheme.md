@@ -4,7 +4,7 @@ title: "Tyranids color scheme"
 date: 2015-01-12T21:55:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: []
 image: >-
   /blog/images/10524307_10152719919746847_7734336651750446476_n-744x744.jpg

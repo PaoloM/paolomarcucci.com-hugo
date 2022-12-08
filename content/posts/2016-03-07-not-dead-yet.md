@@ -4,7 +4,7 @@ title: "Not dead yet"
 date: 2016-03-07T10:08:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: [Ariete, EF-2000, F/A-18E, fn.305, Fw-109, Joaquin in Vietnam, Ro.57, S-21]
 image: >-
   images/blog/20151025_053831516_iOS.jpg

@@ -4,7 +4,7 @@ title: "Quick update"
 date: 2015-08-06T08:53:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: [C.205, Joaquin in Vietnam, RM.Roma, Ro.57]
 image: >-
   images/blog/20150726_215254408_iOS.jpg

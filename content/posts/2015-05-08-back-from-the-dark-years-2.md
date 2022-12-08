@@ -4,7 +4,7 @@ title: "Back from the dark years"
 date: 2015-05-08T15:50:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: []
 ---
 Hi again, it's me.

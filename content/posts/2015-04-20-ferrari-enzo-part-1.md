@@ -4,7 +4,7 @@ title: "Ferrari Enzo - Part 1"
 date: 2015-04-20T14:50:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: [Ferrari.Enzo]
 image: >-
   /blog/images/enzo04.jpg

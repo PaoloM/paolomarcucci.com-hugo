@@ -4,7 +4,7 @@ title: "Zunification part 3: First implementation"
 date: 2009-12-14T10:07:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: []
 ---
 It turns out that option 2 and 4 (Soundgate CORE and homebrew AUX in) are not mutually exclusive at all. So this puts the final plan at this: enable the AUX input and use a Soundgate CORE and a REMCORE (wired remote control) to charge and control the device.

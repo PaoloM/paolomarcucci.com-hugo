@@ -4,7 +4,7 @@ title: "Zunification part 2: The Plan"
 date: 2009-12-08T19:01:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: []
 ---
 There are several ways to use a Zune in your car, and all of them suck in one or another painful manner.

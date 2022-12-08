@@ -4,7 +4,7 @@ title: "Airbrushing report"
 date: 2016-03-14T11:04:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: []
 ---
 *Greg is looking to get into airbrushing after many years of paintbrush and rattle cans. I'll try to put down my experience so far in order to help him and others that may want to consider this step :)*

@@ -4,7 +4,7 @@ title: "July 2013 hobby challenge"
 date: 2013-07-03T22:56:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: []
 image: >-
   /blog/images/mikhail4-744x700.jpg

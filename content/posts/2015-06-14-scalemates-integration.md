@@ -4,7 +4,7 @@ title: "Scalemates integration"
 date: 2015-06-14T23:31:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: []
 ---
 Just a bit of a departure from all these modelling posts, but somehow related.

@@ -4,7 +4,7 @@ title: "March 2013 hobby challenge"
 date: 2013-03-08T22:13:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: []
 image: >-
   /blog/images/companychampion.jpg

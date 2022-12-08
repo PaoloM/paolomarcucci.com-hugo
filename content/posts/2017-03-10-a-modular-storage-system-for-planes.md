@@ -4,10 +4,10 @@ title: "A modular storage system for planes"
 date: 2017-03-10T14:06:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: []
 image: >-
-  /images/blog/15800805_10153973212426567_3783322528762832554_o.jpg
+  images/blog/15800805_10153973212426567_3783322528762832554_o.jpg
 ---
 It comes a time, in the life of a modeler, where one contemplates the vast array of built models and the massively larger stash hidden somewhere in the closet, or the garage.
 

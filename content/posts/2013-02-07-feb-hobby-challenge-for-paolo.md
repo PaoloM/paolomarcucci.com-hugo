@@ -4,7 +4,7 @@ title: "Feb hobby challenge for Paolo"
 date: 2013-02-07T16:03:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: []
 image: >-
   /blog/images/photo01.jpg

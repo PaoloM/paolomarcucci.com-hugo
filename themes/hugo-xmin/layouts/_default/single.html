@@ -1,6 +1,7 @@
 {{ partial "header.html" . }}
 
 <div class="article-meta">
+    {{ with resources.Get .Params.image }}<img src="{{ (.Resize "800x").Permalink }}" />{{ end }}
     <h1><span class="title">{{ .Title | markdownify }}</span></h1>
     {{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
     {{ if (gt .Params.date 0) }}<h2 class="date">{{ .Date.Format "Jan 2, 2006" }}</h2>{{ end }}

@@ -4,7 +4,7 @@ title: "Fall 2014 hobby challenge"
 date: 2014-07-28T23:17:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: []
 image: >-
   /blog/images/lrdw8-1280x721-744x419.jpg

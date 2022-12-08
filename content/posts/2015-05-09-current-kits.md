@@ -4,7 +4,7 @@ title: "Current kits"
 date: 2015-05-09T15:52:00-08:00
 author: Paolo
 comments: true
-categories: []
+categories: [blog]
 tags: []
 ---
 From the bottom, clockwise:
