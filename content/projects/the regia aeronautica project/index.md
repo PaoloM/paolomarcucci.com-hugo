@@ -1,6 +1,7 @@
 ---
 layout: page
-date: 2015-06-03 14:16
+date: 2015-06-03T14:16:00-08:00
+title: "The Regia Aeronautica Project"
 author: Paolo
 comments: true
 categories: []
@@ -8,10 +9,7 @@ tags: []
 image: >-
   /blog/images/RAlogos.png
 ---
-
-# The WWII Regia Aeronautica project
-
-![](/blog/images/RAlogos.png)
+{{< img src="images/blog/RAlogos.png" >}}
 
 This project aims to build some of the most important and iconic aircrafts used by the [Regia Aeronautica](http://en.wikipedia.org/wiki/Regia_Aeronautica#World_War_II) between 1940 until the September 1943 armistice. After that date, Italian air forces split into the Royalist [Italian Co-Belligerent Air Force](http://en.wikipedia.org/wiki/Italian_Co-Belligerent_Air_Force) (*[Aviazione Cobelligerante Italiana](http://en.wikipedia.org/wiki/Italian_Co-Belligerent_Air_Force)*, or ACI) and the [National Republican Air Force](http://en.wikipedia.org/wiki/Aeronautica_Nazionale_Repubblicana) (*[Aeronautica Nazionale Repubblicana](http://en.wikipedia.org/wiki/Aeronautica_Nazionale_Repubblicana)*, or ANR) that flew for the [Italian Social Republic](http://en.wikipedia.org/wiki/Italian_Social_Republic) and the Axis.
 

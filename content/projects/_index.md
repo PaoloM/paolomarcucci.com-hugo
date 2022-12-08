@@ -26,6 +26,6 @@ And some that were never even published...
 
 ## Modelling projects
 
-* [The WWII Regia Aeronautica Project](the regia aeronautica project/) - Italian aircrafts of World War II
+* [The WWII Regia Aeronautica Project](the-regia-aeronautica-project/) - Italian aircrafts of World War II
 
 

@@ -1,6 +1,7 @@
 ---
 layout: page
-date: 2021-01-24 14:16
+date: 2021-01-24T14:16:00-08:00
+title: "Jeeves - A gentle home automation system"
 author: Paolo
 comments: true
 categories: [Jeeves]

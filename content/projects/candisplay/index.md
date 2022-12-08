@@ -1,8 +1,9 @@
 ---
 layout: page
-date: 2021-01-24 14:16
+date: 2021-01-24T14:16:00-08:00
 author: Paolo
 comments: true
+title: "CAN Display - Blinkenlights in your car!"
 categories: [CANDisplay]
 tags: []
 ---

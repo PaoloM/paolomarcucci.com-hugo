@@ -1,6 +1,7 @@
 ---
 layout: page
-date: 2021-12-24 14:16
+date: 2021-12-24T14:16:00-08:00
+title: "ModulAmp - A modular audio streaming and amplifier system"
 author: Paolo
 comments: false
 categories:
