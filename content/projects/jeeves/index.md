@@ -7,8 +7,6 @@ comments: true
 categories: [Jeeves]
 tags: []
 ---
-# Jeeves
-
 A home automation system
 
 ## MQTT broker

@@ -1,5 +1,6 @@
 ---
 title: projects
+noList: true
 ---
 ## Hardware/Software projects 
 

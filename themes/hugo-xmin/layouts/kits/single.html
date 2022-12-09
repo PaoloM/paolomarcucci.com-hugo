@@ -5,7 +5,7 @@
     {{ if strings.Contains $image "http" }}
     <img src="{{ $image }}" />
     {{ else }}
-    {{ with resources.Get $image }}<img src="{{ .Permalink }}" />{{ end }}
+    {{ with resources.Get $image }}<img src="{{ (.Resize "800x").Permalink }}" />{{ end }}
     {{ end }}
     <h1><span class="title">{{ .Title | markdownify }}</span></h1>
     {{/* 
@@ -16,6 +16,17 @@
 
 <main>
 {{ .Content }}
+
+<!-- At a glance -->
+
+<!-- Build -->
+{{ $f := (printf "kits/builds/%s/_index.md" (.Params.Get "id")) }}
+{{ if fileExists $f}}
+    {{ readFile $f | markdownify }}
+{{ end }}
+
+<!-- Gallery -->
+
 </main>
 
 {{ partial "footer.html" . }}

@@ -1,7 +1,7 @@
 body {
-  font-family: Optima, Candara, Calibri, Arial, sans-serif;
+  font-family: Calibri, Arial, sans-serif;
 }
-code {
+code, .date {
   font-family: "Lucida Console", Monaco, monospace;
-  font-size: 85%;
+  font-size: small;
 }

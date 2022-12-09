@@ -1,7 +1,11 @@
 <!-- image -->
 {{- $src := .Get "src" -}}
+{{- $size := "800x" -}}
+{{- if (.Get "size") }}
+    {{- $size = .Get "size" -}}
+{{- end -}}
 {{- $image := resources.Get $src -}}
-{{- $resized := $image.Resize "800x" -}}
+{{- $resized := $image.Resize $size -}}
 <figure {{- with .Get "class" -}}class="{{- . -}}"{{- end -}}><a href="{{- $image.Permalink -}}"><img src="{{- $resized.Permalink -}}" {{- if or (.Get "alt") (.Get "caption") -}}alt="{{- with .Get "alt" -}}{{- . -}}{{- else -}}{{- .Get "caption" -}}{{- end -}}"{{- end -}} /></a>
     {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
     <figcaption>{{- if isset .Params "title" -}}

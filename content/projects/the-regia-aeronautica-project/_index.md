@@ -9,7 +9,7 @@ tags: []
 image: >-
   /blog/images/RAlogos.png
 ---
-{{< img src="images/blog/RAlogos.png" >}}
+{{< img src="images/blog/RAlogos.png" size="800x" >}}
 
 This project aims to build some of the most important and iconic aircrafts used by the [Regia Aeronautica](http://en.wikipedia.org/wiki/Regia_Aeronautica#World_War_II) between 1940 until the September 1943 armistice. After that date, Italian air forces split into the Royalist [Italian Co-Belligerent Air Force](http://en.wikipedia.org/wiki/Italian_Co-Belligerent_Air_Force) (*[Aviazione Cobelligerante Italiana](http://en.wikipedia.org/wiki/Italian_Co-Belligerent_Air_Force)*, or ACI) and the [National Republican Air Force](http://en.wikipedia.org/wiki/Aeronautica_Nazionale_Repubblicana) (*[Aeronautica Nazionale Repubblicana](http://en.wikipedia.org/wiki/Aeronautica_Nazionale_Repubblicana)*, or ANR) that flew for the [Italian Social Republic](http://en.wikipedia.org/wiki/Italian_Social_Republic) and the Axis.
 
@@ -47,11 +47,11 @@ While this is a blog post, I'll try to keep it updated for new planes or the sta
 *   [Savoia Marchetti SM.82 "Marsupiale"](http://en.wikipedia.org/wiki/Savoia-Marchetti_SM.82) - [Italeri Nr. 1270 1:72 PRM edition](https://www.scalemates.com/kits/115165-italeri-1270-savoia-marchetti-sm-82-marsupiale) (In stash)
 *   [Savoia Marchetti SM.84](https://en.wikipedia.org/wiki/Caproni_Ca.313) - [Aviation USK AV 2025 1:72](https://www.scalemates.com/kits/167652-aviation-usk-av-2025-savoia-marchetti-sm-84) (In stash)
 
-###  References
+### References
 
 *   [An Italian documentary](https://www.youtube.com/watch?v=PEDwRcWEvKU)
 *   [A series of photos](https://www.youtube.com/watch?v=i2fPjrUsNIA)
-*   [I colori della Regia Aeronautica](colorschemes.html) (reference document in Italian)
+*   [I colori della Regia Aeronautica]( {{< relref "colorschemes" >}} ) (reference document in Italian)
 *   [List of Regia Aeronautica aircraft used in World War II](https://en.wikipedia.org/wiki/List_of_Regia_Aeronautica_aircraft_used_in_World_War_II) (from wikipedia)
 *   [Aerostoria](http://aerostoria.blogspot.com/)
 *   [Flying Lions](http://www.flyinglions.eu/)

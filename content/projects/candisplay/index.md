@@ -7,8 +7,6 @@ title: "CAN Display - Blinkenlights in your car!"
 categories: [CANDisplay]
 tags: []
 ---
-# CAN Display
-
 (TBW)
 
 ## system design
