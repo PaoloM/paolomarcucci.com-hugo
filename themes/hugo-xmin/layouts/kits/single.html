@@ -14,19 +14,73 @@
     {{ if (gt .Params.date 0) }}<div class="date">{{ .Date.Format "Jan 2, 2006" }}</div>{{ end }}
 </div>
 
+{{ $buildInfo := false }}
+{{ $galleryExists := false }}
+
+{{ $f := (printf "kits/builds/%s/_index.md" (.Params.Get "id")) }}
+{{ if fileExists $f}}
+    {{ $buildInfo := true }}
+{{ end }}
+
+{{ $g := (printf "kits/builds/%s/*" (.Params.Get "id")) }}
+{{ range .Resources.Match $g }}
+    {{ $galleryExists = true }}
+{{ else }}
+    {{ $galleryExists = false }}
+{{ end }}
+
 <main>
 {{ .Content }}
 
+<!-- Buttons -->
+<button class="button-thirds" onclick="openTab('info')">At a glance</button>
+{{ if $buildInfo = true }}<button class="button-thirds" onclick="openTab('build')">Build notes</button>{{ end }}
+{{ if $galleryExists = true }}<button class="button-thirds" onclick="openTab('gallery')"> Image Gallery</button>{{ end }}
+
+<br clear="all"/>
+
 <!-- At a glance -->
+<div class="tab" id="info">
+</div>
 
 <!-- Build -->
-{{ $f := (printf "kits/builds/%s/_index.md" (.Params.Get "id")) }}
-{{ if fileExists $f}}
+{{ if $buildInfo = true }}
+<div class="tab" id="build" style="display:none">
     {{ readFile $f | markdownify }}
+</div>
 {{ end }}
 
 <!-- Gallery -->
+<div class="tab" id="gallery" style="display:none">
+{{ if $galleryExists = true }}
+    gallery
+    {{ $g }}
+    {{ range .Resources.Match $g }}
+        {{ $image := .Resize "1920x" }}
+        {{ $thumb := .Resize "160x" }}
+
+        <a class="example-image-link" 
+        href="{{ $image.Permalink }}" 
+        data-lightbox="example-set" 
+        data-title="{{ $image.Permalink }}">
+        <img class="example-image" 
+                src="{{ $thumb.Permalink }}"/>
+        </a>
+    {{ end }}
+{{ end }}
+</div>
 
 </main>
 
 {{ partial "footer.html" . }}
+
+<script>
+    function openTab(tabName) {
+      var i;
+      var x = document.getElementsByClassName("tab");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      document.getElementById(tabName).style.display = "block";
+    }
+    </script>
